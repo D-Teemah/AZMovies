@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    
+
+    <div class="text-white text-sm bg-blue-300 overflow-hidden flex gap-5 p-3">
+        <p class="shrink-0">New releases Available!</p>
+        <p class="shrink-0">New releases Available!</p>
+        <p class="shrink-0">New releases Available!</p>
+        <p class="shrink-0">New releases Available!</p>
+        <p class="shrink-0">New releases Available!</p>
+        <p class="shrink-0">New releases Available!</p>
+        <p class="shrink-0">New releases Available!</p>
+        <p class="shrink-0">New releases Available!</p>
+        <p class="shrink-0">New releases Available!</p>
+        
+    </div>
+
+    <nav class="mx-auto p-4 bg-amber-400">
+        <div class="container mx-auto flex items-center justify-between">
+           <div>
+                <h1 class="italic font-bold text-neutral-800 md:text-3xl">AZMovies</h1>
+            </div>
+
+            <button id="menu" class="lg:hidden text-neutral-900 hover:text-neutral-600" aria-expanded="false" aria-label="open menu">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                  </svg>
+            </button>
+
+            <div role="menubar" class="hidden z-40 flex-col gap-4 absolute right-0 left-0 top-40 bg-amber-400 shadow-xl text-center text-lg p-6 items-center lg:flex lg:flex-row lg:static lg:shadow-none lg:justify-between lg:w-full">
+                <a role="menuitem" class="py-1 px-6 dark:text-neutral-900 hover:text-neutral-600" href="">All movies</a>
+                <a role="menuitem" class="py-1 px-6 dark:text-neutral-900 hover:text-neutral-600 lg:mr-auto" href="">Featured</a>
+                <div class="relative">
+                    <a role="menuitem" class="py-1 px-6 dark:text-neutral-900 hover:text-neutral-600" href="">Genre</a>
+
+                    <div class="absolute md:bg-amber-400 md:gap-2 md:p-10 md:overflow-hidden">
+                        <a href="History.html">History</a>
+                        <a href="Documentary.html">Documentary</a>
+                        <a href="Comedy.html">Comedy</a>
+                        <a href="Mystery.html">Mystery</a>
+                        <a href="Action.html">Action</a>
+                        <a href="Romance.html">Roamnce</a>
+                    </div>
+                </div>
+                <a role="menuitem" class="py-1 px-6 dark:text-neutral-900 hover:text-neutral-600" href="">Year</a>
+            </div>
+        </div>
+
+        <div class="mr-20 ml-20 mt-4 lg:mt-0"">
+            <input class="w-full py-3 px-10 rounded-sm focus:outline-none focus-visible:ring-4 ring-amber-300" type="text" name="Search" id="" placeholder="Search">
+        </div>
+
+
+    </nav>
+
+    <div class="py-5 bg-neutral-600  p-4">
+        <div class="flex gap-2 text-white mb-8">
+            <a href="./index.html">Home</a>
+            <p>/</p>
+            <a href="./index.html">Browse</a>
+        </div>
+
+        <div class="flex items-center justify-between">
+            <div class="flex gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6" class="mt-2 sm:mt-0 w-5 text-white">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                </svg>
+    
+                <h2 class="text-white italic font-bold md:text-3xl ">AZMovies</h2>
+            </div>
+
+            <button class="text-white bg-amber-400 p-3 rounded-sm">Get started</button>
+        </div>
+        
+        <div class="text-white bg-neutral-500 p-24 mt-3 mx-auto">
+            <h1 class="hidden sm:block md:text-2xl pb-8">
+                The <span class="italic">AZMovies</span> is a simple online site that comes with lots of movies recommendations 
+                from the esteemed host. It serves different genre that might interest it's users.
+            </h1>
+
+            <ul class="list-disc mx-6 sm:text-md md:text-lg">
+                <li>The Documentary for the lovers of reality and interesting facts
+                    about different field of interest.  
+                </li>
+                <li>
+                    Are you in search of political, social, economic, scientific, technological histories
+                    and the likes? The <span class="italic">AZMovies</span> covers the history of any area that might amuse you.
+                    All wrapped us in a movie scene.
+                </li>
+                <li>
+                    Amazing roamnce and suspense movies are all awaiting for you at the <span class="italic">AZMovies</span>.
+                </li>
+
+            </ul>
+        </div>
+
+
+        <div class="mt-16 md:mt-40 gap-3 md:flex md:justify-between">
+            <div class="mb-6 md:mb-0 md:max-w-sm">
+                <img src="images/Alchemy_of_Souls-p1.jpg" alt="" class=" w-full">
+            </div>
+
+
+            <div>
+                <div class="text-slate-300 text-center md:text-left">
+                    <div>
+                        <h1 class="md:text-3xl lg:text-4xl font-bold  mb-4">Alchemy_of_Souls</h1>
+                        <p>This movie was produced by Jang Jeong-do Lee Yong-ok Lee Soo-beom</p>
+                    </div>
+
+                    <div class="flex my-3 md:justify-items-center">
+                        <div class="flex mx-auto gap-3 md:mx-0">
+                            <img class="" src="images/star-fill.svg" alt="">
+                            <img class="" src="images/star-fill.svg" alt="">
+                            <img class="" src="images/star-fill.svg" alt="">
+                            <img class="" src="images/star-fill.svg" alt="">
+                            <img class="" src="images/star-fill.svg" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <p>Genre: <span class="text-blue-600"> Romance, Action, Sageuk, Fantasy.</span></p>
+                    </div>
+                    <div>
+                        <p><span>Year:</span> 2022</p>
+                    </div> 
+                    The fate of these people become twisted due to "hwanhonsool" (the soul of the dead return to the living).
+
+                    In the country of Daeho, Jang Uk (Lee Jae-Wook) comes from the noble Jang family. He holds an unpleasant secret about his birth, 
+                    which people all around the country talk about. He is troublemaker. Jang Ukk happens to meet Mu-Deok (Jung So-Min). She is an elite warrior, but her soul is trapped in a physically weak body. She becomes Jang Wook’s servant, but she also secretly teaches him how to fight.
+
+                    Seo Yul (Minhyun) comes from the noble Seo family. He seems perfect with good appearance, intelligence, and strong martial arts skills. Go Won (Shin Seung-Ho) is the crown prince of Daeho. He hopes to become a generous king.
+                    n August 2021, production companies Studio Dragon and High Quality signed an agreement with Mungyeong City to build a filming site in Maseong-myeon worth ₩5 billion for the production of Alchemy of Souls.[8]
+
+                    On October 6, 2021, it was announced that filming of the series was canceled for that week after a staff member tested positive for COVID-19 on the morning of the 5th. All production crew members subsequently underwent PCR test. Some staff members who were classified as close contacts went into self-quarantine, even though they tested negative for the contagion.[11][62]
+
+                    It was reported that filming for the second part of the series had started by July 2022, and was scheduled to end sometime in the autumn.[63][64]
+
+                    Original soundtrack
+                </div>
+
+                <div class="mt-12">
+                    <p class="text-slate-300 italic lg:text-xl">You like romance?</p>
+                </div>
+            </div>
+           
+        </div>
+
+        <div class="text-slate-300 mt-40">
+            <h1 class="text-center mb-24 font-bold text-2xl md:text-3xl">Recently Added</h1>
+
+            <div>
+                <div class="flex flex-wrap justify-center gap-8 md:gap-x-16 mx-auto">
+                    <div class="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
+                        <img src="" class="h-52 w-40 sm:h-60 sm:w-44" alt="">
+                    </div>
+    
+                    <div class="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
+                        <img src="" class="h-52 w-40 sm:h-60 sm:w-44" alt="">
+                    </div>
+    
+                    <div class="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
+                        <img src="" class="h-52 w-40 sm:h-60 sm:w-44" alt="">
+                    </div>
+
+                    <div class="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
+                        <img src="" class="h-52 w-40 sm:h-60 sm:w-44" alt="">
+                    </div>
+
+                    <div class="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
+                        <img src="" class="h-52 w-40 sm:h-60 sm:w-44" alt="">
+                    </div>
+
+                    <div class="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
+                        <img src="" class="h-52 w-40 sm:h-60 sm:w-44" alt="">
+                    </div>
+
+                    <div class="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
+                        <img src="" class="h-52 w-40 sm:h-60 sm:w-44" alt="">
+                    </div>
+
+                    <div class="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
+                        <img src="" class="h-52 w-40 sm:h-60 sm:w-44" alt="">
+                    </div>
+
+                    <div class="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
+                        <img src="" class="h-52 w-40 sm:h-60 sm:w-44" alt="">
+                    </div>
+
+                    <div class="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
+                        <img src="" class="h-52 w-40 sm:h-60 sm:w-44" alt="">
+                    </div>
+
+                    <div class="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
+                        <img src="" class="h-52 w-40 sm:h-60 sm:w-44" alt="">
+                    </div>
+
+                    <div class="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
+                        <img src="" class="h-52 w-40 sm:h-60 sm:w-44" alt="">
+                    </div>
+
+                    <div class="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
+                        <img src="" class="h-52 w-40 sm:h-60 sm:w-44" alt="">
+                    </div>
+                    
+                    <div class="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
+                        <img src="" class="h-52 w-40 sm:h-60 sm:w-44" alt="">
+                    </div>
+
+                    <div class="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
+                        <img src="" class="h-52 w-40 sm:h-60 sm:w-44" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-32">
+            <p class="text-slate-300"> AZMovies produced 2022 by DTeemah@github.com</p>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
